@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/.vs/Algorithms
+/x64/Debug
+*.sln
+/Algorithms.vcxproj
+/Algorithms.vcxproj.filters
+/Algorithms.vcxproj.user
+/.gitignore
+/.gitignore
