@@ -1,6 +1,5 @@
 # Prerequisites
 *.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -38,3 +37,4 @@
 /Algorithms.vcxproj.user
 /.gitignore
 /.gitignore
+.idea
