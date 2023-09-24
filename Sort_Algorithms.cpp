@@ -1,6 +1,5 @@
 #include "Sort_Algorithms.h"
 #include <iostream>
-#include <array>
 
 void Sort_Algorithms::bubble_sort(int *arry, int size){
     std::cout << "bubble_sort " << std::endl;
@@ -30,5 +29,22 @@ void Sort_Algorithms::selection_sort(int *arry, int size) {
         int temp = arry[i];
         arry[i] = arry[min];
         arry[min] = temp;
+    }
+}
+
+
+void Sort_Algorithms::insertion_sort(int *arry, int size) {
+    int key, j;
+    //for each unsorted element X
+    for (int i = 1; i < size; i++) {
+        key = arry[i];//'extract' the element X
+        j = i - 1;
+
+        //for j <- lastSortedIndex down to 0
+        while (j >= 0 && arry[j] > key) {
+            arry[j + 1] = arry[j];
+            j = j - 1;
+        }
+        arry[j + 1] = key;
     }
 }

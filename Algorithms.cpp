@@ -22,7 +22,8 @@ int main()
 
     print(arry, arry_size);
 //    Sort_Algorithms::bubble_sort(arry, arry_size);
-    Sort_Algorithms::selection_sort(arry, arry_size);
+//    Sort_Algorithms::selection_sort(arry, arry_size);
+    Sort_Algorithms::insertion_sort(arry, arry_size);
     print(arry, arry_size);
 
     std::cout << " " << std::endl;
