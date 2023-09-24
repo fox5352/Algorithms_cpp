@@ -6,6 +6,10 @@
 *.o
 *.obj
 
+cmake-build-debug/.ninja_deps
+cmake-build-debug/.ninja_log
+cmake-build-debug/Testing
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -38,4 +42,5 @@
 /.gitignore
 /.gitignore
 .idea
+
 cmake-build-debug/
